@@ -1,0 +1,142 @@
+2.a Print odd numbers in an array   BY USING ARROW FUNCTION
+
+//   let array = [2,4,7,9] ;          
+//   let oddNumbers = () => {
+//                   for(var i = 0 ; i< array.length ; i++){
+//                         if(array[i]%2!=0){
+//                           console.log(array[i]);
+//                         } 
+//                   }
+//     };
+
+
+
+// oddNumbers(array); 
+
+
+
+//   2.b Convert all the strings to title caps in a string array BY USING ARROW FUNCTION
+  
+  
+//   titleCase = (str) => {
+//       str = str.toLowerCase().split(' ');
+//       for (var i = 0; i < str.length; i++) {
+//               str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+//         }
+//         return str.join(' ');
+//   };
+//       const inputString = "paras is full stack developer";
+//       const result = titleCase(inputString);
+//       console.log(result); 
+
+//   2.c Sum of all numbers in an array BY USING ARROW FUNCTION
+  
+    //     let array = [2,4,7,9] ; 
+    //     let sum = ()=>{
+    //               var sum = 0;
+    //               for(var i = 0 ; i< array.length ; i++){
+    //                   sum = sum + array[i];
+    //               }
+    //               return sum;
+    //               };
+                 
+    
+    //   let result = sum(array);
+    //   console.log(result);
+        
+    //  2.d Return all the prime numbers in an array  by using arrow function
+        
+    //   primeNumber = (numArray) => {
+    //                   numArray = numArray.filter((number) => {
+    //                     for (var i = 2; i <= Math.sqrt(number); i++) {
+    //                       if (number % i === 0) return false;
+    //                     }
+    //                     return true;
+    //                   });
+    //                   console.log(numArray);
+    //               }
+                  
+                  
+                  
+    //               const numbers = [5, 13, 17, 23, 26, 37, 48, 59, 67];
+    //               primeNumber(numbers);  
+    
+    
+    
+  
+    //   1.a Print odd numbers in an array   BY USING anonymous function         
+                
+            //     const array = [2,4,7,9] ;          
+            //     const oddNumbers = function(){
+            //       for(var i = 0 ; i< array.length ; i++){
+            //             if(array[i]%2!==0){
+            //               console.log(array[i]);
+            //             } 
+            //       }
+            //   };
+    
+
+
+
+            //   oddNumbers(array); 
+              
+              
+              
+              
+//   1.b Convert all the strings to title caps in a string array BY USING BY USING anonymous function 
+  
+  
+//   titleCase = function(str)  {
+//       str = str.toLowerCase().split(' ');
+//       for (var i = 0; i < str.length; i++) {
+//               str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+//         }
+//         return str.join(' ');
+//   }
+//       const inputstring = "paras is full stack developer";
+//       const result = titleCase(inputstring);
+//       console.log(result); 
+
+
+   
+   
+//   /   1.c Sum of all numbers in an array  BY USING anonymous function 
+  
+    //     let array = [2,4,7,9] ; 
+    //     let sum = function(array){
+    //               var sum = 0;
+    //               for(var i = 0 ; i< array.length ; i++){
+    //                   sum = sum + array[i];
+    //               }
+    //               return sum;
+    //               };
+                 
+    
+    //   let result = sum(array);
+    //   console.log(result);
+        
+        
+        
+        
+        
+        // 1.d Return all the prime numbers in an array  BY USING anonymous function
+        
+    //   primeNumber = function(numArray)  {
+    //                   numArray = numArray.filter((number) => {
+    //                     for (var i = 2; i <= Math.sqrt(number); i++) {
+    //                       if (number % i === 0) return false;
+    //                     }
+    //                     return true;
+    //                   });
+    //                   console.log(numArray);
+    //               }
+                  
+                  
+                  
+    //               const numbers = [5, 13, 17, 23, 26, 37, 48, 59, 67];
+    //               primeNumber(numbers);  
+    
+
+              
+              
+        
